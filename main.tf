@@ -11,6 +11,7 @@ provider "aws" {
   region = "eu-central-1"
 }
 
+
 module "s3-webapp" {
   source  = "app.terraform.io/terraform-app/s3-webapp/aws"
   name    = "ales"
